@@ -1,10 +1,6 @@
 uuid: 239430d1-da84-48de-96de-d2260fa1af3b
 langcode: fr
 status: true
-dependencies:
-  enforced:
-    module:
-      - commerce_order
 _core:
   default_config_hash: Ldnvb_4q13yw40We2IwazrGlY0Fb2XhGm2OSFERTN_M
 id: customer
