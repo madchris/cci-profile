@@ -1,0 +1,30 @@
+uuid: c5eb926d-f574-4e25-bf2b-ed344fffa189
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.profile.customer.address
+    - profile.type.customer
+  module:
+    - address
+_core:
+  default_config_hash: ezdfUdTnxRZcXa4G2aU5XKXEooGSZojXuVGs2YeLiQs
+id: profile.customer.default
+targetEntityType: profile
+bundle: customer
+mode: default
+content:
+  address:
+    type: address_default
+    weight: 0
+    settings:
+      default_country: FR
+    third_party_settings: {  }
+    region: content
+  field_interets:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden: {  }
