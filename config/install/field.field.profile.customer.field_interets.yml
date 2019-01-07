@@ -1,0 +1,35 @@
+uuid: 844ad7da-0d95-4eb6-82f3-be07f1b37a8f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_interets
+    - profile.type.customer
+    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.type_actus
+    - taxonomy.vocabulary.type_evenement
+_core:
+  default_config_hash: nlRD2XdJNJX4Z_l8YP7IpyHxwhlTfTmOgwUZJHbIF-I
+id: profile.customer.field_interets
+field_name: field_interets
+entity_type: profile
+bundle: customer
+label: 'Centre d''intérêt'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_actus: type_actus
+      type_evenement: type_evenement
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: type_actus
+field_type: entity_reference

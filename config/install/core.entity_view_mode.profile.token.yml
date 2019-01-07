@@ -1,0 +1,16 @@
+uuid: 1b0432fb-98d5-4f2e-b942-f8ed1253b58c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - profile
+third_party_settings:
+  lightning_core:
+    internal: true
+_core:
+  default_config_hash: l4eKK0LXiJacGNa_R2YXli9nkkCWwXUh4bPZjSjKHds
+id: profile.token
+label: Token
+targetEntityType: profile
+cache: true

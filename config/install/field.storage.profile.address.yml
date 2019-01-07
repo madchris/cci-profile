@@ -1,0 +1,24 @@
+uuid: 3f25c9e0-58c4-4cd6-be86-fb393b96679a
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+  module:
+    - address
+    - profile
+_core:
+  default_config_hash: gRyZ1a0VUl6y6FEO1TIoshDmYe1eANLi57Q8YZHh3UY
+id: profile.address
+field_name: address
+entity_type: profile
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
