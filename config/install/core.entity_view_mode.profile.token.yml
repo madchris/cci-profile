@@ -3,7 +3,6 @@ langcode: fr
 status: true
 dependencies:
   module:
-    - lightning_core
     - profile
 third_party_settings:
   lightning_core:
